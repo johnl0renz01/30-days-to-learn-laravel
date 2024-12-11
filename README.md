@@ -1,3 +1,5 @@
+~~~EXCEPT
+
 props(['active' => false])
 
 @php
@@ -379,7 +381,7 @@ paired with
 php artisan make:controller ControllerName --resource
 
 
-~~~EXCEPT
+EXCEPT
 Route:resource('jobs', JobController:class, [
 	'except' =>['edit'];
 ]);
